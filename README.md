@@ -36,3 +36,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Preview
 
 ![img](src/assets/preview.png)
+
+This project was generated with [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) using [vue-cli3](https://cli.vuejs.org/). Documentation about the original structure can be found [here](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
