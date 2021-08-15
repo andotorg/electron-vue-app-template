@@ -1,5 +1,15 @@
 # electron-vue-app-template
 
+## 注意：需要VPN，因为要不然会出现
+
+```
+[1/4] 🔍  Resolving packages...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+```
+
 ## Project setup
 ```
 yarn install
@@ -7,7 +17,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
