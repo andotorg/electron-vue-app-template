@@ -30,6 +30,12 @@ yarn build
 yarn lint
 ```
 
+## 整合了ElementUI
+
+[https://github.com/share-framework/comline-app](https://github.com/share-framework/comline-app)
+
+感谢element-vue-admin
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
