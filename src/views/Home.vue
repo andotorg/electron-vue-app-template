@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" style="width: 300px;">
     <HelloWorld msg="Welcome to Your Vue.js Electorn App"/>
+    <img alt="andotorg logo" src="../assets/andotorg-logo.png" style="width: 80px;">
   </div>
 </template>
 
