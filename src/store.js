@@ -1,16 +1,19 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+/* eslint-disable */
+import { createApp } from 'vue'
+import { createStore } from 'vuex'
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
-  state: {
-
+// Create a new store instance.
+const store = createStore({
+  state () {
+    return {
+      count: 0
+    }
   },
   mutations: {
-
-  },
-  actions: {
-
+    increment (state) {
+      state.count++
+    }
   }
 })
+
+export default store

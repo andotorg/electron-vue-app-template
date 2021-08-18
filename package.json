@@ -3,36 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "web:serve": "vue-cli-service serve",
-    "web:build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "build": "vue-cli-service electron:build",
+    "lint": "vue-cli-service lint",
     "dev": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "postuninstall": "electron-builder install-app-deps",
+    "web:build": "vue-cli-service build",
+    "web:serve": "vue-cli-service serve"
   },
   "main": "background.js",
   "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "@vue/compat": "^3.1.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.4",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.12.0",
-    "@vue/cli-plugin-eslint": "^3.12.0",
-    "@vue/cli-service": "^3.12.0",
-    "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.1",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0-beta.3",
+    "@vue/cli-plugin-eslint": "~5.0.0-beta.3",
+    "@vue/cli-service": "~5.0.0-beta.3",
+    "@vue/compiler-sfc": "^3.1.0",
+    "@vue/eslint-config-standard": "^6.1.0",
     "electron": "^13.0.0",
     "electron-devtools-installer": "^3.1.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.6.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "lint-staged": "^8.1.5",
-    "vue-cli-plugin-electron-builder": "^2.1.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-cli-plugin-electron-builder": "^2.1.1"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
