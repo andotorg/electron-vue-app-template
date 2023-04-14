@@ -34,6 +34,10 @@ yarn lint
 
 [https://github.com/share-framework/comline-app](https://github.com/share-framework/comline-app)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=andotorg/electron-vue-app-template&type=Date)](https://star-history.com/#andotorg/electron-vue-app-template&Date)
+
 感谢element-vue-admin
 
 ### Customize configuration
