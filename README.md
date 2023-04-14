@@ -34,9 +34,6 @@ yarn lint
 
 [https://github.com/share-framework/comline-app](https://github.com/share-framework/comline-app)
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=andotorg/electron-vue-app-template&type=Date)](https://star-history.com/#andotorg/electron-vue-app-template&Date)
 
 感谢element-vue-admin
 
@@ -48,3 +45,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ![img](src/assets/preview.png)
 
 This project was generated with [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) using [vue-cli3](https://cli.vuejs.org/). Documentation about the original structure can be found [here](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=andotorg/electron-vue-app-template&type=Date)](https://star-history.com/#andotorg/electron-vue-app-template&Date)
